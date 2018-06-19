@@ -29,4 +29,6 @@ def test_nome_descendencia():
 
 
 def test_nome_ligacao():
-    assert formata_autor("Manoel augusto de nobraga") == "NOBREGA, Manoel Augusto de"
+    assert formata_autor("Manoel augusto de nobrega") == "NOBREGA, Manoel Augusto de"
+    assert formata_autor("benito de paula campos") == "CAMPOS, Benito de Paula"
+    assert formata_autor("antonio josé da silva albuquerque de bragança") == "BRAGANÇA, Antonio José da Silva Albuquerque de"
